@@ -1,0 +1,19 @@
+import random
+import math
+#[0 : "string"][1 : 1.234]
+
+randList = [ "string" , 1.234, 28]
+
+oneToTen = list(range(10))
+
+randList = randList + oneToTen
+
+print(randList[0])
+
+print("list Length :",len(randList))
+
+fisrt3 = randList[0:3]
+
+for i in fisrt3:
+  print("{}:{}".format(fisrt3.index(i), i))
+  
