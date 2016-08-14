@@ -15,5 +15,20 @@ print("list Length :",len(randList))
 fisrt3 = randList[0:3]
 
 for i in fisrt3:
-  print("{}:{}".format(fisrt3.index(i), i))
+    print("{}:{}".format(fisrt3.index(i), i))
   
+print(first3[0] * 3)
+
+print("string" in fisrt3)
+
+print("Index of string: ",fisrt3.index("string"))
+
+print("How many strings: ",first3.count("string")
+
+first3[0] = "New String"
+
+for i in first3:
+    print("{}:{}".format(first3.index(i), i))
+    
+fisrt3.append("Another")
+    print("{}:{}".format(first3.index(i), i))
